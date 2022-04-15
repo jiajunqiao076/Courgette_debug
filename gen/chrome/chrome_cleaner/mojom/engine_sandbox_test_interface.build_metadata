@@ -1,0 +1,9 @@
+{
+  "deps": [
+    "engine_sandbox_interface.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../chrome/chrome_cleaner/mojom/test_pup_typemap.mojom",
+    "../../../../../../chrome/chrome_cleaner/mojom/test_wstring_embedded_nulls.mojom"
+  ]
+}

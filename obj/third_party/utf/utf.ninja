@@ -1,0 +1,43 @@
+defines = -DDCHECK_ALWAYS_ON=1 -DUSE_AURA=1 "-DCR_CLANG_REVISION=\"llvmorg-15-init-1995-g5bec1ea7-1\"" -DCOMPONENT_BUILD -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_ENABLE_NODISCARD -D_LIBCPP_NO_AUTO_LINK -D__STD_C -D_CRT_RAND_S -D_CRT_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_DEPRECATE -D_ATL_NO_OPENGL -D_WINDOWS -DCERT_CHAIN_PARA_HAS_EXTRA_FIELDS -DPSAPI_VERSION=2 -DWIN32 -D_SECURE_ATL -DWINAPI_FAMILY=WINAPI_FAMILY_DESKTOP_APP -DWIN32_LEAN_AND_MEAN -DNOMINMAX -D_UNICODE -DUNICODE -DNTDDI_VERSION=NTDDI_WIN10_VB -D_WIN32_WINNT=0x0A00 -DWINVER=0x0A00 -D_DEBUG -DDYNAMIC_ANNOTATIONS_ENABLED=1 -D_CRT_NONSTDC_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS
+include_dirs = -I../.. -Igen -I../../buildtools/third_party/libc++ -I../../third_party/utf/src -I../../third_party/utf/src/include
+cflags = -fno-delete-null-pointer-checks -fno-ident -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 /clang$:-ffp-contract=off -fcomplete-member-pointers /Gy /FS /bigobj /utf-8 /Zc$:twoPhase /Zc$:sizedDealloc- /D__WRL_ENABLE_FUNCTION_STATICS__ -fmsc-version=1916 /Zc$:dllexportInlines- -m64 -msse3 /Brepro -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes /Od /Ob0 /GF /Z7 -gcodeview-ghash -Xclang -fuse-ctor-homing -ftrivial-auto-var-init=pattern /guard$:cf,nochecks /MDd -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang use-classify-type -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare /W3 /wd4800 /wd4267 -Wno-unused-variable -Wno-c++11-narrowing -Wno-unused-but-set-variable -Wno-misleading-indentation /WX -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wno-nonportable-include-path -Wno-null-pointer-subtraction -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wmax-tokens
+cflags_c = /std$:c11 /TC
+label_name = utf
+target_out_dir = obj/third_party/utf
+target_output_name = utf
+
+build obj/third_party/utf/utf/runestrcat.obj: cc ../../third_party/utf/src/runestr/runestrcat.c
+build obj/third_party/utf/utf/runestrchr.obj: cc ../../third_party/utf/src/runestr/runestrchr.c
+build obj/third_party/utf/utf/runestrcmp.obj: cc ../../third_party/utf/src/runestr/runestrcmp.c
+build obj/third_party/utf/utf/runestrcpy.obj: cc ../../third_party/utf/src/runestr/runestrcpy.c
+build obj/third_party/utf/utf/runestrdup.obj: cc ../../third_party/utf/src/runestr/runestrdup.c
+build obj/third_party/utf/utf/runestrecpy.obj: cc ../../third_party/utf/src/runestr/runestrecpy.c
+build obj/third_party/utf/utf/runestrlen.obj: cc ../../third_party/utf/src/runestr/runestrlen.c
+build obj/third_party/utf/utf/runestrrchr.obj: cc ../../third_party/utf/src/runestr/runestrrchr.c
+build obj/third_party/utf/utf/runestrstr.obj: cc ../../third_party/utf/src/runestr/runestrstr.c
+build obj/third_party/utf/utf/isalnumrune.obj: cc ../../third_party/utf/src/runetype/isalnumrune.c
+build obj/third_party/utf/utf/isalpharune.obj: cc ../../third_party/utf/src/runetype/isalpharune.c
+build obj/third_party/utf/utf/isblankrune.obj: cc ../../third_party/utf/src/runetype/isblankrune.c
+build obj/third_party/utf/utf/iscntrlrune.obj: cc ../../third_party/utf/src/runetype/iscntrlrune.c
+build obj/third_party/utf/utf/isdigitrune.obj: cc ../../third_party/utf/src/runetype/isdigitrune.c
+build obj/third_party/utf/utf/isgraphrune.obj: cc ../../third_party/utf/src/runetype/isgraphrune.c
+build obj/third_party/utf/utf/islowerrune.obj: cc ../../third_party/utf/src/runetype/islowerrune.c
+build obj/third_party/utf/utf/isprintrune.obj: cc ../../third_party/utf/src/runetype/isprintrune.c
+build obj/third_party/utf/utf/ispunctrune.obj: cc ../../third_party/utf/src/runetype/ispunctrune.c
+build obj/third_party/utf/utf/isspacerune.obj: cc ../../third_party/utf/src/runetype/isspacerune.c
+build obj/third_party/utf/utf/istitlerune.obj: cc ../../third_party/utf/src/runetype/istitlerune.c
+build obj/third_party/utf/utf/isupperrune.obj: cc ../../third_party/utf/src/runetype/isupperrune.c
+build obj/third_party/utf/utf/isvalidrune.obj: cc ../../third_party/utf/src/runetype/isvalidrune.c
+build obj/third_party/utf/utf/isxdigitrune.obj: cc ../../third_party/utf/src/runetype/isxdigitrune.c
+build obj/third_party/utf/utf/runetype.obj: cc ../../third_party/utf/src/runetype/runetype.c
+build obj/third_party/utf/utf/utfecpy.obj: cc ../../third_party/utf/src/utf/utfecpy.c
+build obj/third_party/utf/utf/utflen.obj: cc ../../third_party/utf/src/utf/utflen.c
+build obj/third_party/utf/utf/utfrrune.obj: cc ../../third_party/utf/src/utf/utfrrune.c
+build obj/third_party/utf/utf/utfrune.obj: cc ../../third_party/utf/src/utf/utfrune.c
+build obj/third_party/utf/utf/utftab.obj: cc ../../third_party/utf/src/utf/utftab.c
+build obj/third_party/utf/utf/utfutf.obj: cc ../../third_party/utf/src/utf/utfutf.c
+
+build obj/third_party/utf/utf.lib: alink obj/third_party/utf/utf/runestrcat.obj obj/third_party/utf/utf/runestrchr.obj obj/third_party/utf/utf/runestrcmp.obj obj/third_party/utf/utf/runestrcpy.obj obj/third_party/utf/utf/runestrdup.obj obj/third_party/utf/utf/runestrecpy.obj obj/third_party/utf/utf/runestrlen.obj obj/third_party/utf/utf/runestrrchr.obj obj/third_party/utf/utf/runestrstr.obj obj/third_party/utf/utf/isalnumrune.obj obj/third_party/utf/utf/isalpharune.obj obj/third_party/utf/utf/isblankrune.obj obj/third_party/utf/utf/iscntrlrune.obj obj/third_party/utf/utf/isdigitrune.obj obj/third_party/utf/utf/isgraphrune.obj obj/third_party/utf/utf/islowerrune.obj obj/third_party/utf/utf/isprintrune.obj obj/third_party/utf/utf/ispunctrune.obj obj/third_party/utf/utf/isspacerune.obj obj/third_party/utf/utf/istitlerune.obj obj/third_party/utf/utf/isupperrune.obj obj/third_party/utf/utf/isvalidrune.obj obj/third_party/utf/utf/isxdigitrune.obj obj/third_party/utf/utf/runetype.obj obj/third_party/utf/utf/utfecpy.obj obj/third_party/utf/utf/utflen.obj obj/third_party/utf/utf/utfrrune.obj obj/third_party/utf/utf/utfrune.obj obj/third_party/utf/utf/utftab.obj obj/third_party/utf/utf/utfutf.obj || obj/third_party/utf/utf-headers.stamp
+  arflags = /ignore$:4221 /llvmlibthin
+  output_extension = .lib
+  output_dir = obj/third_party/utf

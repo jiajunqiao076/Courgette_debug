@@ -1,0 +1,223 @@
+[0224/043954.888:ERROR:memory_mapped_file.cc(61)] Couldn't open chrome64_1.exe
+[0224/044026.555:ERROR:memory_mapped_file.cc(61)] Couldn't open chrome64_1
+[0224/044508.659:VERBOSE1:ensemble_create.cc(237)] start GenerateEnsemblePatch
+[0224/044508.660:VERBOSE1:ensemble_create.cc(138)] done FindEmbeddedElements 0.000175
+[0224/044508.697:VERBOSE1:ensemble_create.cc(144)] old has 1 elements
+[0224/044508.698:VERBOSE1:ensemble_create.cc(145)] new has 1 elements
+[0224/044508.939:VERBOSE1:ensemble_create.cc(155)] done make bases 0.241044s
+[0224/044509.078:VERBOSE1:ensemble_create.cc(189)] Compare old(4,0,798208) to new(4,0,831488) --> 115286 in 0.138956s
+[0224/044509.078:VERBOSE1:ensemble_create.cc(208)] Matched old(4,0,798208) to new(4,0,831488) --> 115286
+[0224/044509.078:VERBOSE1:ensemble_create.cc(218)] done FindGenerators found 1 in 0.419047s
+[0224/044509.137:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 16 16
+[0224/044509.137:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044509.140:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.000622
+[0224/044509.141:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 16  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.004099
+[0224/044509.467:VERBOSE1:adjustment_method_2.cc(1244)] Adjuster::Adjust
+[0224/044510.356:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 0.850938
+[0224/044516.023:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 5.6629
+[0224/044516.077:VERBOSE1:label_manager.cc(34)] 1502 of 1737 labels pre-assigned.
+[0224/044516.078:VERBOSE1:label_manager.cc(55)]   fill forward 2
+[0224/044516.078:VERBOSE1:label_manager.cc(77)]   fill backward 18
+[0224/044516.079:VERBOSE1:label_manager.cc(93)]   infill 215
+[0224/044516.080:VERBOSE1:label_manager.cc(34)] 5101 of 5435 labels pre-assigned.
+[0224/044516.080:VERBOSE1:label_manager.cc(55)]   fill forward 66
+[0224/044516.081:VERBOSE1:label_manager.cc(77)]   fill backward 9
+[0224/044516.081:VERBOSE1:label_manager.cc(93)]   infill 259
+[0224/044516.194:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 810110 844639
+[0224/044516.194:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044516.389:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.191048
+[0224/044516.562:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2514  copy bytes: 790862  mistakes: 12715  (skips: 13197)  extra bytes: 53777
+Uncompressed bsdiff patch size 90924
+End bsdiff 0.366869
+[0224/044516.599:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 1629696 831488
+[0224/044516.599:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044517.099:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.497245
+[0224/044517.115:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2  copy bytes: 831488  mistakes: 0  (skips: 3)  extra bytes: 0
+Uncompressed bsdiff patch size 50
+End bsdiff 0.516011
+[0224/044517.117:VERBOSE1:ensemble_create.cc(440)] done GenerateEnsemblePatch 8.45724s
+[0224/044604.531:VERBOSE1:ensemble_create.cc(237)] start GenerateEnsemblePatch
+[0224/044604.532:VERBOSE1:ensemble_create.cc(138)] done FindEmbeddedElements 8.4e-05
+[0224/044604.537:VERBOSE1:ensemble_create.cc(144)] old has 1 elements
+[0224/044604.538:VERBOSE1:ensemble_create.cc(145)] new has 1 elements
+[0224/044604.787:VERBOSE1:ensemble_create.cc(155)] done make bases 0.247722s
+[0224/044604.928:VERBOSE1:ensemble_create.cc(189)] Compare old(4,0,798208) to new(4,0,831488) --> 115286 in 0.141357s
+[0224/044604.929:VERBOSE1:ensemble_create.cc(208)] Matched old(4,0,798208) to new(4,0,831488) --> 115286
+[0224/044604.930:VERBOSE1:ensemble_create.cc(218)] done FindGenerators found 1 in 0.398316s
+[0224/044604.992:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 16 16
+[0224/044604.992:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044604.995:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.000556
+[0224/044604.996:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 16  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.004252
+[0224/044605.315:VERBOSE1:adjustment_method_2.cc(1244)] Adjuster::Adjust
+[0224/044606.207:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 0.854893
+[0224/044612.087:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 5.87655
+[0224/044612.112:VERBOSE1:label_manager.cc(34)] 1502 of 1737 labels pre-assigned.
+[0224/044612.113:VERBOSE1:label_manager.cc(55)]   fill forward 2
+[0224/044612.113:VERBOSE1:label_manager.cc(77)]   fill backward 18
+[0224/044612.114:VERBOSE1:label_manager.cc(93)]   infill 215
+[0224/044612.116:VERBOSE1:label_manager.cc(34)] 5101 of 5435 labels pre-assigned.
+[0224/044612.118:VERBOSE1:label_manager.cc(55)]   fill forward 66
+[0224/044612.118:VERBOSE1:label_manager.cc(77)]   fill backward 9
+[0224/044612.119:VERBOSE1:label_manager.cc(93)]   infill 259
+[0224/044612.231:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 810110 844639
+[0224/044612.232:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044612.427:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.191569
+[0224/044612.599:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2514  copy bytes: 790862  mistakes: 12715  (skips: 13197)  extra bytes: 53777
+Uncompressed bsdiff patch size 90924
+End bsdiff 0.367313
+[0224/044612.637:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 1629696 831488
+[0224/044612.637:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044613.138:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.498361
+[0224/044613.154:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2  copy bytes: 831488  mistakes: 0  (skips: 3)  extra bytes: 0
+Uncompressed bsdiff patch size 50
+End bsdiff 0.516904
+[0224/044613.156:VERBOSE1:ensemble_create.cc(440)] done GenerateEnsemblePatch 8.62354s
+[0224/044901.702:ERROR:memory_mapped_file.cc(61)] Couldn't open setup1.exe
+[0224/044942.780:VERBOSE1:ensemble_create.cc(237)] start GenerateEnsemblePatch
+[0224/044942.781:VERBOSE1:ensemble_create.cc(138)] done FindEmbeddedElements 6.5e-05
+[0224/044942.781:VERBOSE1:ensemble_create.cc(144)] old has 1 elements
+[0224/044942.783:VERBOSE1:ensemble_create.cc(145)] new has 1 elements
+[0224/044943.061:VERBOSE1:ensemble_create.cc(155)] done make bases 0.277836s
+[0224/044943.215:VERBOSE1:ensemble_create.cc(189)] Compare old(1,0,967168) to new(1,0,965632) --> 49668 in 0.154662s
+[0224/044943.215:VERBOSE1:ensemble_create.cc(208)] Matched old(1,0,967168) to new(1,0,965632) --> 49668
+[0224/044943.216:VERBOSE1:ensemble_create.cc(218)] done FindGenerators found 1 in 0.436484s
+[0224/044943.288:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 16 16
+[0224/044943.288:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044943.290:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.000651
+[0224/044943.292:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 16  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.003745
+[0224/044943.651:VERBOSE1:adjustment_method_2.cc(1244)] Adjuster::Adjust
+[0224/044947.849:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 4.15447
+[0224/044951.846:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 3.98068
+[0224/044951.864:VERBOSE1:label_manager.cc(34)] 5493 of 5545 labels pre-assigned.
+[0224/044951.864:VERBOSE1:label_manager.cc(55)]   fill forward 52
+[0224/044951.865:VERBOSE1:label_manager.cc(77)]   fill backward 0
+[0224/044951.865:VERBOSE1:label_manager.cc(93)]   infill 0
+[0224/044951.866:VERBOSE1:label_manager.cc(34)] 3658 of 3724 labels pre-assigned.
+[0224/044951.867:VERBOSE1:label_manager.cc(55)]   fill forward 60
+[0224/044951.867:VERBOSE1:label_manager.cc(77)]   fill backward 1
+[0224/044951.867:VERBOSE1:label_manager.cc(93)]   infill 5
+[0224/044951.994:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 972866 971449
+[0224/044951.995:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044952.270:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.272711
+[0224/044952.300:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 490  copy bytes: 969104  mistakes: 1230  (skips: 1327)  extra bytes: 2345
+Uncompressed bsdiff patch size 7065
+End bsdiff 0.305733
+[0224/044952.345:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 1932800 965632
+[0224/044952.345:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0224/044953.371:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 1.02293
+[0224/044953.390:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2  copy bytes: 965632  mistakes: 0  (skips: 3)  extra bytes: 0
+Uncompressed bsdiff patch size 50
+End bsdiff 1.04509
+[0224/044953.392:VERBOSE1:ensemble_create.cc(440)] done GenerateEnsemblePatch 10.6118s
+[0228/201616.565:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/201616.801:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.228809
+[0228/201616.995:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2043  copy bytes: 776780  mistakes: 42267  (skips: 42962)  extra bytes: 54708
+Uncompressed bsdiff patch size 149469
+End bsdiff 0.431415
+[0228/201652.348:VERBOSE1:ensemble_create.cc(237)] start GenerateEnsemblePatch
+[0228/201652.454:VERBOSE1:ensemble_create.cc(138)] done FindEmbeddedElements 0.102339
+[0228/201652.454:VERBOSE1:ensemble_create.cc(144)] old has 1 elements
+[0228/201652.454:VERBOSE1:ensemble_create.cc(145)] new has 1 elements
+[0228/201652.720:VERBOSE1:ensemble_create.cc(155)] done make bases 0.265322s
+[0228/201652.870:VERBOSE1:ensemble_create.cc(189)] Compare old(4,0,798208) to new(4,0,831488) --> 115286 in 0.151046s
+[0228/201652.872:VERBOSE1:ensemble_create.cc(208)] Matched old(4,0,798208) to new(4,0,831488) --> 115286
+[0228/201652.873:VERBOSE1:ensemble_create.cc(218)] done FindGenerators found 1 in 0.521242s
+[0228/201652.932:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 16 16
+[0228/201652.933:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/201652.934:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.000541
+[0228/201652.934:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 16  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.001376
+[0228/201653.266:VERBOSE1:adjustment_method_2.cc(1244)] Adjuster::Adjust
+[0228/201654.186:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 0.882071
+[0228/201700.541:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 6.3522
+[0228/201700.569:VERBOSE1:label_manager.cc(34)] 1502 of 1737 labels pre-assigned.
+[0228/201700.569:VERBOSE1:label_manager.cc(55)]   fill forward 2
+[0228/201700.569:VERBOSE1:label_manager.cc(77)]   fill backward 18
+[0228/201700.569:VERBOSE1:label_manager.cc(93)]   infill 215
+[0228/201700.570:VERBOSE1:label_manager.cc(34)] 5101 of 5435 labels pre-assigned.
+[0228/201700.570:VERBOSE1:label_manager.cc(55)]   fill forward 66
+[0228/201700.571:VERBOSE1:label_manager.cc(77)]   fill backward 9
+[0228/201700.571:VERBOSE1:label_manager.cc(93)]   infill 259
+[0228/201700.685:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 810110 844639
+[0228/201700.686:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/201700.883:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.196305
+[0228/201701.060:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2514  copy bytes: 790862  mistakes: 12715  (skips: 13197)  extra bytes: 53777
+Uncompressed bsdiff patch size 90924
+End bsdiff 0.375199
+[0228/201701.098:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 1629696 831488
+[0228/201701.098:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/201701.619:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.519119
+[0228/201701.635:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2  copy bytes: 831488  mistakes: 0  (skips: 3)  extra bytes: 0
+Uncompressed bsdiff patch size 50
+End bsdiff 0.536838
+[0228/201701.637:VERBOSE1:ensemble_create.cc(440)] done GenerateEnsemblePatch 9.28575s
+[0228/201944.207:VERBOSE1:ensemble_create.cc(237)] start GenerateEnsemblePatch
+[0228/201944.309:VERBOSE1:ensemble_create.cc(138)] done FindEmbeddedElements 0.101698
+[0228/201944.310:VERBOSE1:ensemble_create.cc(144)] old has 1 elements
+[0228/201944.310:VERBOSE1:ensemble_create.cc(145)] new has 1 elements
+[0228/201944.673:VERBOSE1:ensemble_create.cc(155)] done make bases 0.361597s
+[0228/201944.980:VERBOSE1:ensemble_create.cc(189)] Compare old(1,0,967168) to new(1,0,965632) --> 49668 in 0.307333s
+[0228/201944.981:VERBOSE1:ensemble_create.cc(208)] Matched old(1,0,967168) to new(1,0,965632) --> 49668
+[0228/201944.982:VERBOSE1:ensemble_create.cc(218)] done FindGenerators found 1 in 0.775079s
+[0228/201945.057:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 16 16
+[0228/201945.057:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/201945.059:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.000704
+[0228/201945.062:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 16  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.005362
+[0228/201945.430:VERBOSE1:adjustment_method_2.cc(1244)] Adjuster::Adjust
+[0228/201949.885:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 4.41051
+[0228/201954.131:VERBOSE1:adjustment_method_2.cc(1285)]  Adjuster::Solve 4.22685
+[0228/201954.150:VERBOSE1:label_manager.cc(34)] 5493 of 5545 labels pre-assigned.
+[0228/201954.150:VERBOSE1:label_manager.cc(55)]   fill forward 52
+[0228/201954.151:VERBOSE1:label_manager.cc(77)]   fill backward 0
+[0228/201954.153:VERBOSE1:label_manager.cc(93)]   infill 0
+[0228/201954.154:VERBOSE1:label_manager.cc(34)] 3658 of 3724 labels pre-assigned.
+[0228/201954.154:VERBOSE1:label_manager.cc(55)]   fill forward 60
+[0228/201954.155:VERBOSE1:label_manager.cc(77)]   fill backward 1
+[0228/201954.155:VERBOSE1:label_manager.cc(93)]   infill 5
+[0228/201954.285:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 972866 971449
+[0228/201954.285:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/201954.547:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.260204
+[0228/201954.578:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 490  copy bytes: 969104  mistakes: 1230  (skips: 1327)  extra bytes: 2345
+Uncompressed bsdiff patch size 7065
+End bsdiff 0.292972
+[0228/201954.623:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 1932800 965632
+[0228/201954.623:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/201955.673:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 1.04527
+[0228/201955.692:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 2  copy bytes: 965632  mistakes: 0  (skips: 3)  extra bytes: 0
+Uncompressed bsdiff patch size 50
+End bsdiff 1.06877
+[0228/201955.694:VERBOSE1:ensemble_create.cc(440)] done GenerateEnsemblePatch 11.4867s
+[0228/202629.458:VERBOSE1:ensemble_create.cc(237)] start GenerateEnsemblePatch
+[0228/202629.459:VERBOSE1:ensemble_create.cc(138)] done FindEmbeddedElements 6.7e-05
+[0228/202629.459:VERBOSE1:ensemble_create.cc(144)] old has 1 elements
+[0228/202629.459:VERBOSE1:ensemble_create.cc(145)] new has 1 elements
+[0228/202629.732:VERBOSE1:ensemble_create.cc(155)] done make bases 0.272961s
+[0228/202629.732:VERBOSE1:ensemble_create.cc(218)] done FindGenerators found 0 in 0.273777s
+[0228/202629.792:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 15 15
+[0228/202629.792:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/202629.794:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.000642
+[0228/202629.794:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 15  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.002814
+[0228/202629.795:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 15 15
+[0228/202629.795:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/202629.797:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.000547
+[0228/202629.797:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 15  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.002009
+[0228/202629.798:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 798208 967168
+[0228/202629.798:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0228/202629.983:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.182908
+[0228/202630.762:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 3846  copy bytes: 233378  mistakes: 48562  (skips: 48706)  extra bytes: 733790
+Uncompressed bsdiff patch size 849246
+End bsdiff 0.962767
+[0228/202630.764:VERBOSE1:ensemble_create.cc(440)] done GenerateEnsemblePatch 1.30643s

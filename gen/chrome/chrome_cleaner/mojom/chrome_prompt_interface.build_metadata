@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "footprints_interface.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../chrome/chrome_cleaner/mojom/chrome_prompt.mojom"
+  ]
+}

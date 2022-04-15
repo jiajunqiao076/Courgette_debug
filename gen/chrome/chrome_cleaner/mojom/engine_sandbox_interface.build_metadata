@@ -1,0 +1,15 @@
+{
+  "deps": [
+    "footprints_interface.build_metadata",
+    "../../../mojo/public/mojom/base/base.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../chrome/chrome_cleaner/mojom/cleaner_engine_requests.mojom",
+    "../../../../../../chrome/chrome_cleaner/mojom/engine_file_requests.mojom",
+    "../../../../../../chrome/chrome_cleaner/mojom/engine_requests.mojom",
+    "../../../../../../chrome/chrome_cleaner/mojom/engine_sandbox.mojom",
+    "../../../../../../chrome/chrome_cleaner/mojom/pup.mojom",
+    "../../../../../../chrome/chrome_cleaner/mojom/windows_handle.mojom",
+    "../../../../../../chrome/chrome_cleaner/mojom/wstring_embedded_nulls.mojom"
+  ]
+}

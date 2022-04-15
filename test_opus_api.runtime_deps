@@ -1,0 +1,15 @@
+./test_opus_api.exe
+./test_opus_api.exe.pdb
+../../testing/location_tags.json
+../../.vpython
+bin/run_test_opus_api.bat
+../../.vpython3
+../../testing/test_env.py
+../../testing/xvfb.py
+../../testing/scripts/common.py
+../../.vpython
+../../.vpython3
+../../build/util/lib/__init__.py
+../../build/util/lib/results/
+./libc++.dll
+./libc++.dll.pdb

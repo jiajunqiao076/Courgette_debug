@@ -1,0 +1,29 @@
+[
+  {
+    "traits_deps": [
+      "//components/download/public/common:public",
+      "//components/enterprise/common:download_item_reroute_info"
+    ],
+    "traits_headers": [
+      "chrome/browser/ui/webui/download_shelf/download_mojom_traits.h"
+    ],
+    "types": [
+      {
+        "cpp": "::download::DownloadDangerType",
+        "mojom": "download_shelf.mojom.DangerType"
+      },
+      {
+        "cpp": "::download::DownloadItemMode",
+        "mojom": "download_shelf.mojom.DownloadMode"
+      },
+      {
+        "cpp": "::download::DownloadItem::DownloadState",
+        "mojom": "download_shelf.mojom.DownloadState"
+      },
+      {
+        "cpp": "::download::DownloadItem::MixedContentStatus",
+        "mojom": "download_shelf.mojom.MixedContentStatus"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "../tabs/mojo_bindings.build_metadata",
+    "../../../../../mojo/public/mojom/base/base.build_metadata",
+    "../../../../../url/mojom/url_mojom_gurl.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../../chrome/browser/ui/webui/tab_strip/tab_strip.mojom"
+  ]
+}

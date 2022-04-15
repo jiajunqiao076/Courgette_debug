@@ -1,0 +1,6 @@
+[0220/020739:ERROR:client_util.cc(144)] Failed to load Chrome DLL from E:\chroium\src\courgette\testdata\30.0.1554.0\chrome.dll: �Ҳ���ָ����ģ�顣
+[0220/020739:ERROR:client_util.cc(197)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+[0222/213957:ERROR:client_util.cc(144)] Failed to load Chrome DLL from E:\chroium\src\courgette\testdata\30.0.1554.0\chrome.dll: 找不到指定的模块。
+[0222/213957:ERROR:client_util.cc(197)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+[0222/213959:ERROR:client_util.cc(153)] Failed to load Chrome DLL from E:\chroium\src\courgette\testdata\31.0.1607.0\chrome.dll: 找不到指定的模块。
+[0222/213959:ERROR:client_util.cc(198)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded

@@ -1,0 +1,8 @@
+{
+  "deps": [
+    "../../sandbox/policy/mojom/mojom.build_metadata"
+  ],
+  "sources": [
+    "../../../../../content/shell/common/power_monitor_test.mojom"
+  ]
+}

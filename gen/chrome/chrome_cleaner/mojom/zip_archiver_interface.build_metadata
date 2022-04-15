@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../chrome/chrome_cleaner/mojom/zip_archiver.mojom"
+  ]
+}

@@ -1,0 +1,35 @@
+defines = -DFT2_BUILD_LIBRARY -DDCHECK_ALWAYS_ON=1 -DUSE_AURA=1 "-DCR_CLANG_REVISION=\"llvmorg-15-init-1995-g5bec1ea7-1\"" -DCOMPONENT_BUILD -D_LIBCPP_ABI_UNSTABLE -D_LIBCPP_ENABLE_NODISCARD -D_LIBCPP_NO_AUTO_LINK -D__STD_C -D_CRT_RAND_S -D_CRT_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_DEPRECATE -D_ATL_NO_OPENGL -D_WINDOWS -DCERT_CHAIN_PARA_HAS_EXTRA_FIELDS -DPSAPI_VERSION=2 -DWIN32 -D_SECURE_ATL -DWINAPI_FAMILY=WINAPI_FAMILY_DESKTOP_APP -DWIN32_LEAN_AND_MEAN -DNOMINMAX -D_UNICODE -DUNICODE -DNTDDI_VERSION=NTDDI_WIN10_VB -D_WIN32_WINNT=0x0A00 -DWINVER=0x0A00 -D_DEBUG -DDYNAMIC_ANNOTATIONS_ENABLED=1 -D_CRT_NONSTDC_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -DFT2_BUILD_DLL "-DFT_CONFIG_MODULES_H=\"freetype-custom/freetype/config/ftmodule.h\"" "-DFT_CONFIG_OPTIONS_H=\"freetype-custom/freetype/config/ftoption.h\"" -DPDFIUM_REQUIRED_MODULES -DPNG_USE_DLL -DPNG_NO_MODULEDEF
+include_dirs = -I../.. -Igen -I../../buildtools/third_party/libc++ -I../../third_party/harfbuzz-ng/src/src -I../../third_party/freetype/include -I../../third_party/freetype/include/freetype-custom -I../../third_party/freetype/src/include -I../../third_party/libpng -I../../third_party/zlib
+cflags = -fno-delete-null-pointer-checks -fno-ident -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 /clang$:-ffp-contract=off -fcomplete-member-pointers /Gy /FS /bigobj /utf-8 /Zc$:twoPhase /Zc$:sizedDealloc- /D__WRL_ENABLE_FUNCTION_STATICS__ -fmsc-version=1916 /Zc$:dllexportInlines- -m64 -msse3 /Brepro -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes /Od /Ob0 /GF /Z7 -gcodeview-ghash -Xclang -fuse-ctor-homing -ftrivial-auto-var-init=pattern /guard$:cf,nochecks /MDd -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang use-classify-type -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare /W3 /wd4800 /wd4267 -Wno-unused-variable -Wno-c++11-narrowing -Wno-unused-but-set-variable -Wno-misleading-indentation /WX -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wno-nonportable-include-path -Wno-null-pointer-subtraction -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wmax-tokens -Wno-deprecated-declarations -Wno-shadow -Wno-unused-function
+cflags_c = /std$:c11 /TC
+label_name = freetype_source
+target_out_dir = obj/third_party/freetype
+target_output_name = freetype_source
+
+build obj/third_party/freetype/freetype_source/autofit.obj: cc ../../third_party/freetype/src/src/autofit/autofit.c
+build obj/third_party/freetype/freetype_source/ftbase.obj: cc ../../third_party/freetype/src/src/base/ftbase.c
+build obj/third_party/freetype/freetype_source/ftbbox.obj: cc ../../third_party/freetype/src/src/base/ftbbox.c
+build obj/third_party/freetype/freetype_source/ftbitmap.obj: cc ../../third_party/freetype/src/src/base/ftbitmap.c
+build obj/third_party/freetype/freetype_source/ftdebug.obj: cc ../../third_party/freetype/src/src/base/ftdebug.c
+build obj/third_party/freetype/freetype_source/ftfstype.obj: cc ../../third_party/freetype/src/src/base/ftfstype.c
+build obj/third_party/freetype/freetype_source/ftgasp.obj: cc ../../third_party/freetype/src/src/base/ftgasp.c
+build obj/third_party/freetype/freetype_source/ftglyph.obj: cc ../../third_party/freetype/src/src/base/ftglyph.c
+build obj/third_party/freetype/freetype_source/ftinit.obj: cc ../../third_party/freetype/src/src/base/ftinit.c
+build obj/third_party/freetype/freetype_source/ftmm.obj: cc ../../third_party/freetype/src/src/base/ftmm.c
+build obj/third_party/freetype/freetype_source/ftstroke.obj: cc ../../third_party/freetype/src/src/base/ftstroke.c
+build obj/third_party/freetype/freetype_source/fttype1.obj: cc ../../third_party/freetype/src/src/base/fttype1.c
+build obj/third_party/freetype/freetype_source/cff.obj: cc ../../third_party/freetype/src/src/cff/cff.c
+build obj/third_party/freetype/freetype_source/ftgzip.obj: cc ../../third_party/freetype/src/src/gzip/ftgzip.c
+build obj/third_party/freetype/freetype_source/psaux.obj: cc ../../third_party/freetype/src/src/psaux/psaux.c
+build obj/third_party/freetype/freetype_source/pshinter.obj: cc ../../third_party/freetype/src/src/pshinter/pshinter.c
+build obj/third_party/freetype/freetype_source/psnames.obj: cc ../../third_party/freetype/src/src/psnames/psnames.c
+build obj/third_party/freetype/freetype_source/raster.obj: cc ../../third_party/freetype/src/src/raster/raster.c
+build obj/third_party/freetype/freetype_source/sfnt.obj: cc ../../third_party/freetype/src/src/sfnt/sfnt.c
+build obj/third_party/freetype/freetype_source/smooth.obj: cc ../../third_party/freetype/src/src/smooth/smooth.c
+build obj/third_party/freetype/freetype_source/truetype.obj: cc ../../third_party/freetype/src/src/truetype/truetype.c
+build obj/third_party/freetype/freetype_source/ftsystem.obj: cc ../../third_party/freetype/src/src/base/ftsystem.c
+build obj/third_party/freetype/freetype_source/ftcid.obj: cc ../../third_party/freetype/src/src/base/ftcid.c
+build obj/third_party/freetype/freetype_source/type1cid.obj: cc ../../third_party/freetype/src/src/cid/type1cid.c
+build obj/third_party/freetype/freetype_source/type1.obj: cc ../../third_party/freetype/src/src/type1/type1.c
+
+build obj/third_party/freetype/freetype_source.stamp: stamp obj/third_party/freetype/freetype_source/autofit.obj obj/third_party/freetype/freetype_source/ftbase.obj obj/third_party/freetype/freetype_source/ftbbox.obj obj/third_party/freetype/freetype_source/ftbitmap.obj obj/third_party/freetype/freetype_source/ftdebug.obj obj/third_party/freetype/freetype_source/ftfstype.obj obj/third_party/freetype/freetype_source/ftgasp.obj obj/third_party/freetype/freetype_source/ftglyph.obj obj/third_party/freetype/freetype_source/ftinit.obj obj/third_party/freetype/freetype_source/ftmm.obj obj/third_party/freetype/freetype_source/ftstroke.obj obj/third_party/freetype/freetype_source/fttype1.obj obj/third_party/freetype/freetype_source/cff.obj obj/third_party/freetype/freetype_source/ftgzip.obj obj/third_party/freetype/freetype_source/psaux.obj obj/third_party/freetype/freetype_source/pshinter.obj obj/third_party/freetype/freetype_source/psnames.obj obj/third_party/freetype/freetype_source/raster.obj obj/third_party/freetype/freetype_source/sfnt.obj obj/third_party/freetype/freetype_source/smooth.obj obj/third_party/freetype/freetype_source/truetype.obj obj/third_party/freetype/freetype_source/ftsystem.obj obj/third_party/freetype/freetype_source/ftcid.obj obj/third_party/freetype/freetype_source/type1cid.obj obj/third_party/freetype/freetype_source/type1.obj || ./libpng.dll.lib ./zlib.dll.lib

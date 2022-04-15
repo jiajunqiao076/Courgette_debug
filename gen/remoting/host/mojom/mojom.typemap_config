@@ -1,0 +1,107 @@
+[
+  {
+    "traits_headers": [
+      "remoting/host/mojom/remoting_mojom_traits.h"
+    ],
+    "traits_public_deps": [
+      "//mojo/public/cpp/base:shared_typemap_traits",
+      "//mojo/public/cpp/bindings",
+      "//remoting/host/base",
+      "//remoting/proto",
+      "//remoting/protocol:errors",
+      "//remoting/protocol:transport",
+      "//services/network/public/cpp:ip_address_mojom_support",
+      "//third_party/webrtc_overrides:webrtc_component"
+    ],
+    "traits_sources": [
+      "remoting_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::std::unique_ptr<::remoting::AudioPacket>",
+        "mojom": "remoting.mojom.AudioPacket",
+        "move_only": true
+      },
+      {
+        "cpp": "::remoting::AudioPacket::BytesPerSample",
+        "mojom": "remoting.mojom.AudioPacket.BytesPerSample"
+      },
+      {
+        "cpp": "::remoting::AudioPacket::Channels",
+        "mojom": "remoting.mojom.AudioPacket.Channels"
+      },
+      {
+        "cpp": "::remoting::AudioPacket::Encoding",
+        "mojom": "remoting.mojom.AudioPacket.Encoding"
+      },
+      {
+        "cpp": "::remoting::AudioPacket::SamplingRate",
+        "mojom": "remoting.mojom.AudioPacket.SamplingRate"
+      },
+      {
+        "cpp": "::remoting::protocol::ClipboardEvent",
+        "mojom": "remoting.mojom.ClipboardEvent"
+      },
+      {
+        "cpp": "::webrtc::DesktopCaptureOptions",
+        "mojom": "remoting.mojom.DesktopCaptureOptions"
+      },
+      {
+        "cpp": "::remoting::DesktopEnvironmentOptions",
+        "mojom": "remoting.mojom.DesktopEnvironmentOptions"
+      },
+      {
+        "cpp": "::webrtc::DesktopSize",
+        "mojom": "remoting.mojom.DesktopSize"
+      },
+      {
+        "cpp": "::webrtc::DesktopVector",
+        "mojom": "remoting.mojom.DesktopVector"
+      },
+      {
+        "cpp": "::remoting::protocol::KeyEvent",
+        "mojom": "remoting.mojom.KeyEvent"
+      },
+      {
+        "cpp": "::remoting::protocol::MouseEvent::MouseButton",
+        "mojom": "remoting.mojom.MouseButton"
+      },
+      {
+        "cpp": "::remoting::protocol::MouseEvent",
+        "mojom": "remoting.mojom.MouseEvent"
+      },
+      {
+        "cpp": "::remoting::protocol::ErrorCode",
+        "mojom": "remoting.mojom.ProtocolErrorCode"
+      },
+      {
+        "cpp": "::remoting::ScreenResolution",
+        "mojom": "remoting.mojom.ScreenResolution"
+      },
+      {
+        "cpp": "::remoting::protocol::TextEvent",
+        "mojom": "remoting.mojom.TextEvent"
+      },
+      {
+        "cpp": "::remoting::protocol::TouchEvent",
+        "mojom": "remoting.mojom.TouchEvent"
+      },
+      {
+        "cpp": "::remoting::protocol::TouchEventPoint",
+        "mojom": "remoting.mojom.TouchEventPoint"
+      },
+      {
+        "cpp": "::remoting::protocol::TouchEvent::TouchEventType",
+        "mojom": "remoting.mojom.TouchEventType"
+      },
+      {
+        "cpp": "::remoting::protocol::TransportRoute",
+        "mojom": "remoting.mojom.TransportRoute"
+      },
+      {
+        "cpp": "::remoting::protocol::TransportRoute::RouteType",
+        "mojom": "remoting.mojom.TransportRouteType"
+      }
+    ]
+  }
+]

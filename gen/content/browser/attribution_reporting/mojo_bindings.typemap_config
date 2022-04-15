@@ -1,0 +1,22 @@
+[
+  {
+    "traits_headers": [
+      "content/browser/attribution_reporting/attribution_internals_mojom_traits.h",
+      "content/browser/attribution_reporting/attribution_report.h",
+      "content/browser/attribution_reporting/common_source_info.h"
+    ],
+    "traits_sources": [
+      "attribution_internals_mojom_traits.cc"
+    ],
+    "types": [
+      {
+        "cpp": "::content::AttributionReport::EventLevelData::Id",
+        "mojom": "content.mojom.AttributionReportID"
+      },
+      {
+        "cpp": "::content::CommonSourceInfo::SourceType",
+        "mojom": "content.mojom.SourceType"
+      }
+    ]
+  }
+]
